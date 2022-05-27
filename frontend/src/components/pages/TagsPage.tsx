@@ -25,7 +25,7 @@ export const TagsPage = () => {
             <tr>
                 <th style={{width: '10%'}}>ID</th>
                 <th style={{width: '70%'}}>Tag Name</th>
-                <th style={{width: '20%'}}>Tiems Used</th>
+                <th style={{width: '20%'}}>Times Used</th>
             </tr>
             </thead>
             <tbody>
