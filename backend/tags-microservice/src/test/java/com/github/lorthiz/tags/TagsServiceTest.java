@@ -11,9 +11,9 @@ class TagsServiceTest {
         assertEquals(20, 20);
     }
 
-//    @Test
-//    void brokenTest() {
-//        assertEquals(10, 20);
-//    }
+    @Test
+    void brokenTest() {
+        assertEquals(10, 20);
+    }
 
 }
