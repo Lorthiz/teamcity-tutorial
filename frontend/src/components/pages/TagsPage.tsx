@@ -10,8 +10,6 @@ export const TagsPage = () => {
     const [totalPages, setTotalPages] = useState(0);
 
     useEffect(() => {
-        console.log('i fire once');
-
         TagsApi.fetchTags(currentPage)
             .then(tagsPage => {
                 setTags(tagsPage.list);
