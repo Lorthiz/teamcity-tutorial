@@ -5,6 +5,12 @@ export const ChangelogPage = () => {
 
     const changelog = useMemo(() => [
         {
+            version: "0.1.2 - hotfix",
+            changes: [
+                "Fixed broken test",
+            ]
+        },
+        {
             version: "0.1.2",
             changes: [
                 "Added changelog page",

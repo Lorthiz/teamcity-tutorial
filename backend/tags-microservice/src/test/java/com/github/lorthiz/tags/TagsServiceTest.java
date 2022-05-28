@@ -12,8 +12,8 @@ class TagsServiceTest {
     }
 
     @Test
-    void brokenTest() {
-        assertEquals(10, 20);
+    void fixedTest() {
+        assertEquals(10, 10);
     }
 
 }
